@@ -24,3 +24,17 @@ Caused by: io.micronaut.context.exceptions.NoSuchBeanException: No bean of type 
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	... 4 more
 ```
+
+## Steps to reproduce
+
+1. Build jar
+
+```bash
+./gradlew bootJar
+```
+
+2. Run jar
+
+```bash
+java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
+```
